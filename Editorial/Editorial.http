@@ -1,0 +1,6 @@
+@Editorial_HostAddress = http://localhost:5276
+
+GET {{Editorial_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
