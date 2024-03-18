@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editorial", "Editorial\Editorial.csproj", "{F9931B8C-18B6-49D6-BE10-727EC5811375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Editorial", "Editorial\Editorial.csproj", "{F9931B8C-18B6-49D6-BE10-727EC5811375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{C7F44D6A-B84F-4B29-91FE-1CB2EF608C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{C7F44D6A-B84F-4B29-91FE-1CB2EF608C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{808C2F09-523B-4FD0-B8E7-263A4BEF09B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{808C2F09-523B-4FD0-B8E7-263A4BEF09B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{C81DB568-40F0-41D6-AF30-C39D396E5CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{C81DB568-40F0-41D6-AF30-C39D396E5CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entitites", "Entitites\Entitites.csproj", "{C8A51EAB-70A3-4F73-8144-EA20A150365A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entitites", "Entitites\Entitites.csproj", "{C8A51EAB-70A3-4F73-8144-EA20A150365A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{CBA6D2DE-9751-4FC3-B5E7-F4933A3A75A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C8A51EAB-70A3-4F73-8144-EA20A150365A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8A51EAB-70A3-4F73-8144-EA20A150365A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8A51EAB-70A3-4F73-8144-EA20A150365A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA6D2DE-9751-4FC3-B5E7-F4933A3A75A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA6D2DE-9751-4FC3-B5E7-F4933A3A75A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA6D2DE-9751-4FC3-B5E7-F4933A3A75A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA6D2DE-9751-4FC3-B5E7-F4933A3A75A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
